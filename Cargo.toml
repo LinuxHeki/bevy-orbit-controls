@@ -1,11 +1,11 @@
 [package]
 name = "bevy-orbit-controls"
 version = "2.0.1"
-authors = ["iMplode nZ <rg@youxplode.com>"]
+authors = ["iMplode nZ <rg@youxplode.com>", "LinuxHeki <linuxheki@gmail.com>"]
 license = "ISC"
-edition = "2018"
+edition = "2021"
 readme = "README.md"
-repository = "https://github.com/iMplode-nZ/bevy-orbit-controls"
+repository = "https://github.com/LinuxHeki/bevy-orbit-controls/"
 documentation = "https://docs.rs/bevy-orbit-controls/"
 description = "An orbit controls plugin for bevy."
 keywords = ["gamedev", "bevy", "3d", "camera", ]
@@ -21,4 +21,4 @@ harness = false
 test = false
 
 [dependencies]
-bevy = { version = "0.5.0", default-features = false, features = [ "render" ] }
+bevy = { version = "0.6.1", default-features = false, features = [ "render" ] }

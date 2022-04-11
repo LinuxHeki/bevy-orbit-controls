@@ -21,7 +21,7 @@
 //! ```
 //!
 //! ## Compatibility
-//!
+//! - `v3.x` - Bevy `0.6`
 //! - `v2.x` – Bevy `0.5`.
 //! - `v1.x` – Bevy `0.4`.
 
@@ -40,6 +40,7 @@ pub enum CameraEvents {
     Zoom(f32),
 }
 
+#[derive(Component)]
 pub struct OrbitCamera {
     pub x: f32,
     pub y: f32,
@@ -193,7 +194,7 @@ impl OrbitCameraPlugin {
     }
 }
 impl Plugin for OrbitCameraPlugin {
-    fn build(&self, app: &mut AppBuilder) {
+    fn build(&self, app: &mut App) {
         app.add_system(Self::emit_motion_events.system())
             .add_system(Self::mouse_motion_system.system())
             .add_system(Self::emit_zoom_events.system())
