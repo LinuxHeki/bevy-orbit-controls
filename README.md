@@ -24,5 +24,6 @@ commands
 
 ## Compatibility
 
+- `v3.x` – Bevy `0.6`.
 - `v2.x` – Bevy `0.5`.
 - `v1.x` – Bevy `0.4`.
