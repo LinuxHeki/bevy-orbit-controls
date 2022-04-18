@@ -1,6 +1,6 @@
 [package]
 name = "bevy-orbit-controls"
-version = "3.0.0"
+version = "4.0.0"
 authors = ["iMplode nZ <rg@youxplode.com>", "LinuxHeki <linuxheki@gmail.com>"]
 license = "ISC"
 edition = "2021"
